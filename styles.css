@@ -12,10 +12,10 @@ h1{
 }
 
 h2{
-margin-top: 100px;
-margin-bottom: -50px;
-color: #ff0066;
+color: #ff3333;
 font-family: 'Roboto', sans-serif;
+user-select: none;
+cursor: pointer;
 }
 
 p{
