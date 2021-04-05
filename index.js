@@ -1,3 +1,7 @@
+setTimeout(startGame, 5000);
+
+function startGame(){
+
 var number1 = Math.floor(Math.random()*6)+1;
 var number2 = Math.floor(Math.random()*6)+1;
 
@@ -19,3 +23,4 @@ else if(number2>number1)
   }
 else
   document.querySelector("h1").innerHTML = "!!Draw!!";
+}
