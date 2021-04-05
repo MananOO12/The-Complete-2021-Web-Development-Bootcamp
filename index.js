@@ -1,4 +1,5 @@
-setTimeout(startGame, 5000);
+//setTimeout(startGame, 5000);
+
 
 function startGame(){
 
@@ -24,3 +25,5 @@ else if(number2>number1)
 else
   document.querySelector("h1").innerHTML = "!!Draw!!";
 }
+
+document.addEventListener('click', startGame);

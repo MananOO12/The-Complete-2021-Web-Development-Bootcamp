@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body{
   background-color: beige;
   text-align: center;
 }
+
 h1{
   font-size: 8rem;
-  font-family: 'Lobster', cursive;
   color: #0e7c7b;
+  font-family: 'Lobster', cursive;
+}
 
+h2{
+margin-top: 100px;
+margin-bottom: -50px;
+color: #ff0066;
+font-family: 'Roboto', sans-serif;
 }
 
 p{
