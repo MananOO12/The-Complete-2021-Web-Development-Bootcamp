@@ -10,4 +10,7 @@ This repository contains solutions to the Boss Level challenges of the Udemy Cou
    [Demo](https://simongame102.netlify.app/) [Code](https://github.com/MananOO12/The-Complete-2021-Web-Development-Bootcamp/tree/Simongame)
 
 3. Todo List <br>
-   [Demo](https://todo-list-with-db.herokuapp.com) [Code](https://github.com/MananOO12/The-Complete-2021-Web-Development-Bootcamp/tree/todolist)
+   [Demo](https://todo-list-with-db.herokuapp.com/) [Code](https://github.com/MananOO12/The-Complete-2021-Web-Development-Bootcamp/tree/todolist)
+
+4. Blog Website <br>
+   [Demo](https://blog-website-with-db.herokuapp.com/) [Code](https://github.com/MananOO12/The-Complete-2021-Web-Development-Bootcamp/tree/Blog-Web)
