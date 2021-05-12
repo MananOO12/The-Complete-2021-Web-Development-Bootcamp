@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const url = "mongodb+srv://" + process.env.user + ":" + process.env.pass + "@cluster0-aws.7zkvg.mongodb.net/blogDB?retryWrites=true&w=majority";
+const url = "mongodb+srv://manan12:MananDB12!@cluster0-aws.7zkvg.mongodb.net/blogDB?retryWrites=true&w=majority";
 
 mongoose.connect(url ,{ useNewUrlParser: true ,useUnifiedTopology: true });
 
