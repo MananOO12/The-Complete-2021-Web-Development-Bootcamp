@@ -8,3 +8,6 @@ This repository contains solutions to the Boss Level challenges of the Udemy Cou
 
 2. Simon Game <br>
    [Demo](https://simongame102.netlify.app/) [Code](https://github.com/MananOO12/The-Complete-2021-Web-Development-Bootcamp/tree/Simongame)
+
+3. Todo List <br>
+   [Demo](https://simongame102.netlify.app/) [Code](https://github.com/MananOO12/The-Complete-2021-Web-Development-Bootcamp/tree/todolist)
