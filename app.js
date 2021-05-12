@@ -6,6 +6,8 @@ const date = require(__dirname + "/date.js");
 const _ = require("lodash");
 const mongoose = require('mongoose');
 
+require('dotenv').config();
+
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -13,8 +15,11 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
+const url = "mongodb+srv://" + process.env.user + ":" + process.env.pass + "@cluster0-aws.7zkvg.mongodb.net/todolistDB?retryWrites=true&w=majority";
+// console.log(url);
+
 //MongoDB Atlas
-mongoose.connect("mongodb+srv://manan12:MananDB12!@cluster0-aws.7zkvg.mongodb.net/todolistDB?retryWrites=true&w=majority", { useNewUrlParser: true ,useUnifiedTopology: true });
+mongoose.connect(url, { useNewUrlParser: true ,useUnifiedTopology: true });
 
 //todo item schema
 const itemsSchema = new mongoose.Schema({
